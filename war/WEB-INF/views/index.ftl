@@ -10,6 +10,8 @@
 			<div id="splash-buttons" class="splash-buttons">
 				<a class="pure-button pure-button-primary" href="#getinvolved" alt="Get Involved">Get Involved</a>
 			</div>
+			<div class="splash-ann">
+			</div>
 		</div>
 	</div>
 	<div class="content-container">
@@ -29,6 +31,9 @@
 				<input type="submit" class="pure-button pure-button-primary" value="Search">
 			</form>
 		</div>
+		<!-- div class="section small highlight">
+			<h3><@z.message 'index.ann.golf'/></h3>
+		</div -->
 		<a class="anchor" id="mission"></a>
 		<div class="content">
 			<h1>The KSF&reg; Mission Statement</h1>
@@ -91,6 +96,6 @@
 				</div>
 			</div>
 		</div>
-		<div class="section highlight footer">Footer text here...</div>
+		<div class="section small highlight footer">Footer text here...</div>
 	</div>
 </@>

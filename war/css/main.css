@@ -150,9 +150,17 @@ input.pure-button-primary, button.pure-button-primary {
 	text-align: center;
 }
 
+.section.small {
+	padding: 1em;
+}
+
 .section.highlight {
 	color: white !important;
 	background-color: #333333 !important;
+}
+
+.section.highlight h1, .section.highlight h2, .section.highlight h3, .section.highlight h4 {
+	color: white !important;
 }
 
 .content {
@@ -161,10 +169,6 @@ input.pure-button-primary, button.pure-button-primary {
 
 .content>h1,.content>h2,.content>h3,.content>h4 {
 	text-align: center;
-}
-
-.footer {
-	padding: 1em;
 }
 
 /* STRUCTURE */

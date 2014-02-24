@@ -51,6 +51,8 @@
 <#macro _nav>
 					<li class="pure-menu-selected"><a href="#">Home</a></li>
 					<li><a href="#">Events & News</a></li>
+					<li><a href="#">Golf Classic</a></li>
+					<li><a href="#">Guestbook</a></li>
 					<li><a href="#">Contact Us</a></li>
 					<li><a href="#">Login</a></li>
 </#macro>
