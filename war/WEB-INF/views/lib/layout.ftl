@@ -11,7 +11,30 @@
 </html>
 </#macro>
 
-<#macro _head title>
+<#macro _css page>
+		<#-- Fonts -->
+		<link href='//fonts.googleapis.com/css?family=Allura' rel='stylesheet' type='text/css'>
+		<link href='//fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet' type='text/css'>
+		<#-- 3rd Party -->
+		<link rel="stylesheet" href="//yui.yahooapis.com/pure/0.4.2/pure-min.css">
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+		<#-- Application -->
+		<link rel="stylesheet" href="/css/main.css">
+		<link rel="stylesheet" href="/css/${page}.css">
+</#macro>
+
+<#macro _js page>
+		<#-- jQuery -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<#-- 3rd Party -->
+		<script src="/js/3rdp/jquery.scrollTo.min.js"></script>
+		<script src="/js/3rdp/jquery.localScroll.min.js"></script>
+		<#-- Application -->
+		<script src="/js/main.js"></script>
+		<script src="/js/${page}.js"></script>
+</#macro>
+
+<#macro _head page title>
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -20,13 +43,8 @@
 		<meta name="keywords" content="<@z.message 'site.keywords'/>">
 		<title><@z.message 'site.title'/> | ${title}</title>
 		<link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
-		<link rel="stylesheet" href="//yui.yahooapis.com/pure/0.4.2/pure-min.css">
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-		<link href='//fonts.googleapis.com/css?family=Allura' rel='stylesheet' type='text/css'>
-		<link href='//fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="/css/main.css">
-		<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.min.js"></script>
-		<script src="/js/controllers.js"></script>
+		<@_css page/>
+		<@_js page/>
 	</head>
 </#macro>
 
@@ -46,9 +64,9 @@
 		</div>
 </#macro>
 
-<#macro page title>
+<#macro page page title>
 <@_html>
-	<@_head title/>
+	<@_head page title/>
 	<body>
 		<@_header/>
 		<#nested/>

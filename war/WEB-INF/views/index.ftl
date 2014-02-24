@@ -1,6 +1,7 @@
-<#import "spring.ftl" as z/>
-<#import "lib/layout.ftl" as l/>
-<@l.page "Index">
+<#import 'spring.ftl' as z/>
+<#import 'lib/layout.ftl' as l/>
+<@l.page  'index' 'Index'>
+	<a class="anchor" id="top"></a>
 	<div class="splash-container">
 		<div class="splash">
 			<img class="splash-img" src="/images/kelsey.jpg">
@@ -8,11 +9,8 @@
 			<p class="splash-blurb"><@z.message 'site.splash.blurb'/></p>
 			<div class="splash-buttons">
 				<a class="pure-button pure-button-primary" href="#" alt="">Get Involved</a>
-				<!-- - OR -
-				<a class="pure-button pure-button-primary" href="#" alt="">Donate</a>
-				-->
 			</div>
-			<div class="splash-links">
+			<div id="splash-links" class="splash-links">
 				<a href="#events">Events & News</a>
 				|
 				<a href="#connect">Connect With Us</a>
@@ -78,5 +76,8 @@
 			<p><strong>"Make A Difference"</strong></p>
 		</div>
 		<div class="footer">Footer text here...</div>
+	</div>
+	<div id="back-to-top" class="back-to-top">
+		<a href="#top">Back to Top</a>
 	</div>
 </@>
