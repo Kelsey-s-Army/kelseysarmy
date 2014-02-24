@@ -48,6 +48,13 @@
 	</head>
 </#macro>
 
+<#macro _nav>
+					<li class="pure-menu-selected"><a href="#">Home</a></li>
+					<li><a href="#">Events & News</a></li>
+					<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Login</a></li>
+</#macro>
+
 <#macro _header>
 		<div class="header">
 			<div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
@@ -56,9 +63,7 @@
 					<span><@z.message 'site.heading'/></span>
 				</a>
 				<ul>
-					<li class="pure-menu-selected"><a href="#">Home</a></li>
-					<li><a href="#">Contact Us</a></li>
-					<li><a href="#">Login</a></li>
+					<@_nav/>
 				</ul>
 			</div>
 		</div>

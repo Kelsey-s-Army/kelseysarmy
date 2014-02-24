@@ -17,7 +17,7 @@ $(function() {
 	$(window).scroll(function() {
 		fn.hideShowBackToTop();
 	});
-	$('#back-to-top').localScroll();
+	$.localScroll();
 	fn.hideShowBackToTop();
 	
 	if ($$ && $.isPlainObject($$)) {

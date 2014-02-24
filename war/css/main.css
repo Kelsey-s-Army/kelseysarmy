@@ -123,6 +123,23 @@ input.pure-button-primary, button.pure-button-primary {
 	text-decoration: none !important;
 }
 
+.pure-g {
+	font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.pure-g [class *="pure-u"] {
+	font-family: 'Josefin Sans', sans-serif !important;
+}
+
+.pure-u-1 {
+	box-sizing: border-box;
+	padding: 1em;
+}
+
+.pure-u-lrg-1-4 {
+	width: 25%;
+}
+
 /* STYLES */
 .fancy {
 	font-family: 'Allura', sans-serif !important;
@@ -181,8 +198,13 @@ input.pure-button-primary, button.pure-button-primary {
 }
 
 .home-menu li>a {
+	padding: 5px 0 !important;
+	margin: 0 10px !important;
 	color: white !important;
 	text-shadow: 1px 1px #555555;
+}
+.home-menu li:last-child>a {
+	margin: 0 25px 0 10px !important;
 }
 
 .home-menu li.pure-menu-selected>a {
