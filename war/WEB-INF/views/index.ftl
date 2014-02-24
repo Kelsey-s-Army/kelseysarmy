@@ -6,7 +6,12 @@
 			<img class="splash-img" src="/images/kelsey.jpg">
 			<h1 class="splash-heading fancy no-upper"><@z.message 'site.splash.heading'/></h1>
 			<p class="splash-blurb"><@z.message 'site.splash.blurb'/></p>
-			<a class="pure-button pure-button-primary" href="#" alt="">Get Involved</a>
+			<div class="splash-buttons">
+				<a class="pure-button pure-button-primary" href="#" alt="">Get Involved</a>
+				<!-- - OR -
+				<a class="pure-button pure-button-primary" href="#" alt="">Donate</a>
+				-->
+			</div>
 			<div class="splash-links">
 				<a href="#events">Events & News</a>
 				|
@@ -48,29 +53,29 @@
 		<div class="content">
 			<h1>Kelsey's Story</h1>
 			<p>
-			On June 2, 2007, Kelsey was abducted in broad daylight from a local department store. About 3 hours later her car was found in the mall parking lot. Surveillance video eventually revealed Kelsey purchasing a gift, walking out to her car and then her abduction. Family and friends began to search for her and to put flyers up. The effort to find Kelsey grew so large the volunteers became known as “Kelsey’s Army. On June 6, 2007, Kelsey’s body was found. Forensic evidence revealed that she was sexually assaulted and strangled to death. She had graduated from high school just 9 days before being murdered. The person accused was arrested the same day. On July 23, 2008, Kelsey’s killer pled GUILTY to all four charges of kidnapping, rape, sodomy and capital murder. On September 16, 2008, he was sentenced to life in prison without any chance of parole. He is institutionalized with the Kansas Department of Corrections.
+			On June 2, 2007, Kelsey was abducted in broad daylight from a local department store. About 3 hours later her car was found in the mall parking lot. Surveillance video eventually revealed Kelsey purchasing a gift, walking out to her car and then her abduction. Family and friends began to search for her and to put flyers up. The effort to find Kelsey grew so large the volunteers became known as "Kelsey's Army. On June 6, 2007, Kelsey's body was found. Forensic evidence revealed that she was sexually assaulted and strangled to death. She had graduated from high school just 9 days before being murdered. The person accused was arrested the same day. On July 23, 2008, Kelsey's killer pled GUILTY to all four charges of kidnapping, rape, sodomy and capital murder. On September 16, 2008, he was sentenced to life in prison without any chance of parole. He is institutionalized with the Kansas Department of Corrections.
 			</p>
 			<p>
-			Beyond local Kansas City news coverage, Kelsey’s disappearance and murder received prominent national media attention, due in large part to her parents, Greg and Missey Smith. Greg has 17 years of law enforcement experience and was a police officer at the time of her abduction. On July 7, 2007, they established the Kelsey Smith Foundation to honor their daughter by empowering families, friends, and communities to proactively protect one of its most precious resources, namely its youth and young adults.
+			Beyond local Kansas City news coverage, Kelsey's disappearance and murder received prominent national media attention, due in large part to her parents, Greg and Missey Smith. Greg has 17 years of law enforcement experience and was a police officer at the time of her abduction. On July 7, 2007, they established the Kelsey Smith Foundation to honor their daughter by empowering families, friends, and communities to proactively protect one of its most precious resources, namely its youth and young adults.
 			</p>
 			<p>
-			How it all began…
-			Kelsey was born May 3, 1989, the 3rd of 5 children. She would tease that she had middle child syndrome. She was “the planned one”. A fact she would remind her siblings of, to which they would respond, “Mom and Dad need to be more spontaneous”.
+			How it all began...
+			Kelsey was born May 3, 1989, the 3rd of 5 children. She would tease that she had middle child syndrome. She was "the planned one". A fact she would remind her siblings of, to which they would respond, "Mom and Dad need to be more spontaneous".
 			</p>
 			<p>
-			Right from the beginning she was an explorer. When she was 18 months old she received a shirt that said “My name is no – no”. She was very inquisitive and always questioned things. Kelsey continued this throughout her life. She was not afraid to try something new. At school she participated in many activities such as track, theatre, writer’s workshop, art, choir and her main passion, marching band. Kelsey chose to go to Kansas State University because in her opinion, they had one of the best marching band programs.
+			Right from the beginning she was an explorer. When she was 18 months old she received a shirt that said "My name is no-no". She was very inquisitive and always questioned things. Kelsey continued this throughout her life. She was not afraid to try something new. At school she participated in many activities such as track, theatre, writer's workshop, art, choir and her main passion, marching band. Kelsey chose to go to Kansas State University because in her opinion, they had one of the best marching band programs.
 			</p>
 			<p>
-			Around the age of four she became fascinated with the color blue. She would wear it every day. This continued on so long that her mom’s friend, Miss Donna, nick named her “Blueberry”.
+			Around the age of four she became fascinated with the color blue. She would wear it every day. This continued on so long that her mom's friend, Miss Donna, nick named her "Blueberry".
 			</p>
 			<p>
-			Kelsey had a very big heart. When she was a child if she went somewhere with her parents she would not allow them to buy her a “treat” unless they bought one for her sisters also. As she got older she continued to take care of others. She was 6 when her brother Zach was born and would not allow anyone to take care of him if she was around. When she got into high school she would give her friends large bouquets of balloons on their birthdays. Many times either staying up late or getting up early to make sure this was done. Once she drove 3 hours to K-State to do Lindsey’s (her sister) hair for an event.
+			Kelsey had a very big heart. When she was a child if she went somewhere with her parents she would not allow them to buy her a "treat" unless they bought one for her sisters also. As she got older she continued to take care of others. She was 6 when her brother Zach was born and would not allow anyone to take care of him if she was around. When she got into high school she would give her friends large bouquets of balloons on their birthdays. Many times either staying up late or getting up early to make sure this was done. Once she drove 3 hours to K-State to do Lindsey's (her sister) hair for an event.
 			Kelsey was very creative. At an early age she showed her talent for art, by writing all over the walls with a permanent marker. When family members lost their dog to death, Kelsey drew pictures of the pets and gave them to the family member who had lost their dog. She had a beautiful voice and used it in the choir at Shawnee Mission West. At one performance a friend let her mom know that they were brought to tears listening to her sing. She surprised her parents at one of her last performances with a solo. She was so excited she could hardly keep it in.
 			</p>
 			<p>
-			Kelsey was one to make a difference in someone’s life. She would speak to anyone and always tried to show people that she cared. In her honor her parents are trying to do what Kelsey would.
+			Kelsey was one to make a difference in someone's life. She would speak to anyone and always tried to show people that she cared. In her honor her parents are trying to do what Kelsey would.
 			</p>
-			<p><strong>“Make A Difference”</strong></p>
+			<p><strong>"Make A Difference"</strong></p>
 		</div>
 		<div class="footer">Footer text here...</div>
 	</div>

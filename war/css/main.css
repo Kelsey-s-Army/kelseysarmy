@@ -216,6 +216,10 @@ a:hover.pure-button {
 	text-shadow: 1px 1px #888888;
 }
 
+.splash-buttons {
+	color: white !important;
+}
+
 .splash-links {
 	color: white !important;
 }
