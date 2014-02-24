@@ -10,16 +10,23 @@
 			<div class="splash-buttons">
 				<a class="pure-button pure-button-primary" href="#" alt="">Get Involved</a>
 			</div>
-			<div id="splash-links" class="splash-links">
-				<a href="#events">Events & News</a>
-				|
-				<a href="#connect">Connect With Us</a>
-				|
-				<a href="#story">Kelsey's Story</a>
-			</div>
 		</div>
 	</div>
 	<div class="content-container">
+		<div class="section menu">
+			<form class="pure-form">
+				<span id="menu-links" class="menu-links">
+					<a href="#events">Events & News</a>
+					|
+					<a href="#connect">Connect With Us</a>
+					|
+					<a href="#story">Kelsey's Story</a>
+				</span>
+				<label for="search-box">Search KelseysArmy.org</label>
+				<input id="searhc-box" name="q" type="text" placeholder="Search KelseysArmy.org">
+				<input type="submit" class="pure-button pure-button-primary" value="Search">
+			</form>
+		</div>
 		<a class="anchor" id="events"></a>
 		<div class="content">
 			<h1>Events & News</h1>
@@ -40,7 +47,7 @@
 			<p>Vestibulum lacinia aliquam odio, at tincidunt nulla varius in. Nam nec egestas nulla, vitae iaculis magna. Nullam porta pretium velit eu tempor. Integer varius dignissim pellentesque. Donec sem metus, hendrerit eu diam sed, placerat venenatis nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed et placerat urna. Morbi vel augue et lectus viverra consectetur. Suspendisse sed porttitor quam, non lacinia dui. Nulla at eros mollis, malesuada sem in, scelerisque urna. Cras vestibulum, velit at semper aliquet, erat erat adipiscing orci, eleifend auctor nisl enim non erat. Phasellus eget venenatis erat. Cras tristique, turpis sed vestibulum fringilla, odio lorem malesuada erat, et iaculis ante urna ut lorem. Praesent suscipit enim eget augue convallis volutpat. Duis odio nunc, convallis et dolor ut, tempus volutpat orci. Pellentesque nisi augue, porttitor sed posuere at, vestibulum a lacus.</p>
 		</div>
 		<a class="anchor" id="connect"></a>
-		<div class="connect">
+		<div class="section highlight connect">
 			<h1 class="alt">Connect With Us</h1>
 			<a href="//facebook.com" alt="Facebook"><img src="/images/social/fb.png"></a>
 			<a href="//plus.google.com" alt="Google Plus"><img src="/images/social/gp.png"></a>
@@ -75,9 +82,6 @@
 			</p>
 			<p><strong>"Make A Difference"</strong></p>
 		</div>
-		<div class="footer">Footer text here...</div>
-	</div>
-	<div id="back-to-top" class="back-to-top">
-		<a href="#top">Back to Top</a>
+		<div class="section highlight footer">Footer text here...</div>
 	</div>
 </@>

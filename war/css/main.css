@@ -66,7 +66,7 @@ strong {
 	font-weight: bold !important;
 }
 
-a,a:link {
+a,a:link,a:visited {
 	color: #0ba0e6;
 	font-weight: bold;
 	text-decoration: none;
@@ -76,14 +76,10 @@ a:hover {
 	text-decoration: underline;
 }
 
-a:visited {
-	color: #086b99;
-}
-
 a.anchor {
 	display: block;
 	position: relative;
-	top: -50px;
+	top: -49px;
 	visibility: hidden;
 }
 
@@ -104,8 +100,19 @@ a:hover.pure-button {
 	text-decoration: none;
 }
 
+input.pure-button, button.pure-button {
+	position: relative;
+	top: 2px;
+	height: 37px;
+}
+
 .pure-button-primary {
 	background-color: white !important;
+}
+
+input.pure-button-primary, button.pure-button-primary {
+	color: #0ba0e6;
+	font-weight: bold;
 }
 
 .pure-menu-selected a {
@@ -119,6 +126,28 @@ a:hover.pure-button {
 /* STYLES */
 .fancy {
 	font-family: 'Allura', sans-serif !important;
+}
+
+.section {
+	padding: 3em;
+	text-align: center;
+}
+
+.section.highlight {
+	color: white !important;
+	background-color: #333333 !important;
+}
+
+.content {
+	box-sizing: border-box;
+}
+
+.content>h1,.content>h2,.content>h3,.content>h4 {
+	text-align: center;
+}
+
+.footer {
+	padding: 1em;
 }
 
 /* STRUCTURE */
@@ -163,6 +192,11 @@ a:hover.pure-button {
 
 .home-menu li>a:hover {
 	background: transparent !important;
+}
+
+.content-container {
+	box-sizing: border-box;
+	background-color: white;
 }
 
 .back-to-top {

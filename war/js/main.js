@@ -1,14 +1,24 @@
+var $U = {
+	
+};
+
 $(function() {
+	var fn = {
+		hideShowBackToTop: function() {
+			if ($(window).scrollTop() > 200) {
+				$('#back-to-top').stop().fadeIn(500);
+			} else {
+				$('#back-to-top').stop().fadeOut(500);
+			}
+		}
+	};
 	
 	// Scrolling behavior
 	$(window).scroll(function() {
-		if ($(this).scrollTop() > 200) {
-			$('#back-to-top').stop().fadeIn(500);
-		} else {
-			$('#back-to-top').stop().fadeOut(500);
-		}
+		fn.hideShowBackToTop();
 	});
 	$('#back-to-top').localScroll();
+	fn.hideShowBackToTop();
 	
 	if ($$ && $.isPlainObject($$)) {
 		// LOAD

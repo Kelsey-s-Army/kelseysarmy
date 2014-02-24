@@ -64,12 +64,19 @@
 		</div>
 </#macro>
 
+<#macro _backToTop>
+		<div id="back-to-top" class="back-to-top">
+			<a href="#top">Back to Top</a>
+		</div>
+</#macro>
+
 <#macro page page title>
 <@_html>
 	<@_head page title/>
 	<body>
 		<@_header/>
 		<#nested/>
+		<@_backToTop/>
 	</body>
 </@>
 </#macro>

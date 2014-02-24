@@ -1,5 +1,5 @@
 var $$ = {
 	load: function() {
-		$('#splash-links').localScroll();
+		$('#menu-links').localScroll();
 	}
 };
